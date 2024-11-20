@@ -12,7 +12,7 @@ body {
 .chat-container {
     visibility: hidden;
     width: 282px;
-    height: 100vh;
+    height: 100dvh;
     position: relative;
     padding-top: 34px;
     border-radius: 10px;
