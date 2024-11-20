@@ -136,9 +136,10 @@ function getBotResponse(input) {
 
     // 3. 금지어 목록
     const forbiddenWords = [
-        '개새끼',
+        '개새',
         '미친놈',
         '병신',
+        '샹년',
         '썅년',
         '시발',
         '엿',
@@ -163,6 +164,8 @@ function getBotResponse(input) {
         '나가라',
         'ㅅㅂ',
         'ㅈㄴ',
+        'ㅄ',
+        'ㅂㅅ',
         'ㅅㅅ',
     ];
 
