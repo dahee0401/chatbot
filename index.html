@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>챗봇</title>
+        <link rel="stylesheet" href="./css/style.css" />
+    </head>
+    <body>
+        <button class="board-open" aria-label="보드열기"><img src="./img/open.svg" alt="보드열기" /></button>
+        <div class="chat-container">
+            <button class="close-btn" aria-label="닫기"></button>
+            <div class="chat-box" id="chat-box"></div>
+            <div class="send-box">
+                <textarea id="user-input" placeholder="내용을 입력합니다." rows="3" style="resize: none"></textarea>
+                <button class="send-btn" id="send-button" aria-label="전송">
+                    <img src="./img/send.svg" alt="sent icon" />
+                </button>
+            </div>
+        </div>
+
+        <script src="./js/script.js"></script>
+    </body>
+</html>
